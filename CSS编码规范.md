@@ -12,8 +12,7 @@
 
 + 文件名必须由小写字母、数字、下划线_组成（结合下面的书写规范）
 + 文件必须用utf-8编码
-+ 文件引入必须通过外联
-+ <link rel=”stylesheet” href="…” />（类型声明type=”text/css”不可以忽略）
++ 文件引入必须通过外联`<link rel=”stylesheet” href="…” />`（类型声明type=”text/css”不可以忽略）
 + 不允许在html上直接写样式
 + link标签都应该放入head中
 
