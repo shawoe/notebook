@@ -1,4 +1,4 @@
-## FreeMarker ##
+## FreeMarker 常用语法 ##
 + FreeMarker 官方网站：[http://www.freemarker.org](http://www.freemarker.org)
 + Freemarker 英文在线文档：[http://www.freemarker.org/docs/index.html](http://www.freemarker.org/docs/index.html)
 + FreeMarker 中文文档下载：[http://sourceforge.net/projects/freemarker/files/chinese-manual/FreeMarker_Manual_zh_CN.pdf/download](http://sourceforge.net/projects/freemarker/files/chinese-manual/FreeMarker_Manual_zh_CN.pdf/download)
@@ -27,4 +27,4 @@ Freemarker中显示某对象使用 `${name}`。但如果name为null，Freemarker
 
 注意字符序列 __${__ 和 __#{__ 有特殊的含义，它们被用做插入表达式的数值（典型的应用是：`"Hello ${user}!"` ）。 如果想要打印 __${__ ，就要使用下面所说的原生字符串。
 
-一种特殊的字符串就是原生字符串。在原生字符串中，反斜杠和 `${` 没有特殊的含义，它们被视为普通的字符。 为了表明字符串是原生字符串，在开始的引号或单引号之前放置字母r，例如： `${r"${foo}"}` 和 `${r"C: \foo\bar"}` 将会打印：__${foo}__ 和 __C: \foo\bar__ 。
+一种特殊的字符串就是原生字符串。在原生字符串中，反斜杠和 __${__ 没有特殊的含义，它们被视为普通的字符。 为了表明字符串是原生字符串，在开始的引号或单引号之前放置字母r，例如： `${r"${foo}"}` 和 `${r"C: \foo\bar"}` 将会打印：__${foo}__ 和 __C: \foo\bar__ 。
